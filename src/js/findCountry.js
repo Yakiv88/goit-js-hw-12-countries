@@ -1,7 +1,8 @@
-import {refs} from './refs';
+
 import fetchCountries from './fetchCountries';
 import countriesCard from '../templates/countriesCard.hbs';
 import countriesList from '../templates/countriesList.hbs';
+import { refs } from './refs';
 
 import {  alert, notice, info, success, error } from '@pnotify/core'
 import '@pnotify/core/dist/BrightTheme.css';
